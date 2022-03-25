@@ -14,4 +14,4 @@ class Clothes(models.Model):
     color = models.CharField(max_length=30)
     material = models.CharField(max_length=50)
     size = models.CharField(max_length=50)
-    brand = models.ForeignKey(Brand, on_delete=CASCADE)
+    brand = models.ForeignKey(Brand, on_delete=models.CASCADE)

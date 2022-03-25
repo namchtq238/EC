@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'front',
     'clothes',
     'book',
+    'mobile',
 ]
 
 MIDDLEWARE = [
@@ -84,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ec',
         'USER': 'root',
-        'PASSWORD': 'nguyen15',
+        'PASSWORD': 'danglinh5920',
         'HOST': 'localhost',
         'PORT': '3306',
     }

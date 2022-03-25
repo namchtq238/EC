@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('laptop/', include('laptop.urls')),
     path('book/', include('book.urls')),
+    path('mobile/',include('mobile.urls')),
 ]
 
