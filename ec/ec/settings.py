@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'laptop',
     'front',
     'clothes',
-    
+    'book',
 ]
 
 MIDDLEWARE = [
